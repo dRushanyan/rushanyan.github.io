@@ -1,0 +1,61 @@
+.google {
+    color: aqua;
+}
+.google:hover {
+    color: red;
+}
+
+.google:focus {
+    color: green;
+}
+.parent {
+    color: blue;
+    font-size: 18px;
+    font: bold;
+}
+.sometext:nth-child(4) {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sometext:first-child{
+    color: brown;
+}
+.sometext:last-child{
+    color: blueviolet;
+}
+.patmutyun {
+    color: chartreuse;
+    font-size: 20px;
+    font-family: monospace;
+}
+.patmutyun::first-letter{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.patmutyun::first-line{
+    background: #ccc;
+}
+.ba {
+    color: goldenrod;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.ba::before{
+    content: "Hello " ;
+    color: aqua;
+
+}
+.ba::after{
+    content: "Armenia" ;
+    color: chartreuse;
+}
+
+form input[data-dawo="name"] {
+    background: rgb(0, 255, 234);
+}
+form input[data-dawo="lastname"] {
+    background:red;
+}
